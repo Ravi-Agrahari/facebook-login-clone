@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- npx tailwindcss -i ./input.css -o ./style.css --watch -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>facebook log-in </title>
+</head>
+
+<body class="bg-gray-200">
+
+    <div class="container flex px-8 py-32 m-auto justify-center  ">
+
+        <div class="left w-1/2">
+            <img class="w-72 pt-8 " src="fb.svg" alt="fb-logo">
+            <p class=" text-3xl mx-6  font-sans tracking-tighter ">Facebook helps you connect and share with
+                the people in your life.</p>
+        </div>
+        <div class="right flex flex-col w-1/3">
+
+            <div class="card flex flex-col bg-white p-4 w-full rounded-md shadow-lg shadow-gray-400">
+
+                <input type="text" placeholder="Email address or phone number"
+                    class="border border-gray-300 rounded-md p-3 w-full m-1 mous">
+                <input type="password" placeholder="password" class="border border-gray-300 rounded-md p-3 w-full m-1">
+                <button class="btn bg-blue-500 text-white p-3 rounded-md text-xl font-bold w-full my-3 mx-1">Log
+                    in</button>
+                <span class="mx-auto text-sm text-blue-600 mb-4">Forgotten password?</span>
+                <hr>
+                <button
+                    class="btn  bg-green-500 text-white py-3 rounded-md  font-bold w-1/2 mt-6 my-3 mx-auto hover:bg-green-600 ">Create
+                    new account</button>
+
+            </div>
+            <div class="text p-8">
+                <p class="mx-auto"><span class="font-bold"> Create a Page</span> for a celebrity, brand or business.</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
